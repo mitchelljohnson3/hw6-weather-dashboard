@@ -24,12 +24,12 @@
                     <div class="col-12">
                         <input name="city" type="text" id="input">
                         <label for="city">
-                            <button>Search</button>
+                            <button id="searchButton">Search</button>
                         </label>
                     </div>
                 </div>
 
-                <div class="row block half-height">
+                <div class="row block fit-content">
                     <div class="col-12" id="city-storage">
 
                     </div>
@@ -40,11 +40,16 @@
             <div class="col-8 full-height">
 
                 <div class="row block half-height">
-                    <div class="col-12">
+                    <div class="col-12" id="info">
                         
-                        <div class="row">
-                            <div class="col-12 center-col" id="info">
-                                Info
+                        <div class="row full-height">
+                            <div class="col-12 center-col">
+                                <h1 id="cityName"></h1>
+                                <h2 id="date"></h2>
+                                <p id="temp"></p>
+                                <p id="humidity"></p>
+                                <p id="windSpeed"></p>
+                                <p id="uvIndex"></p>
                             </div>
                         </div>
 
@@ -61,7 +66,7 @@
         </div>
 
     </div>
-
+    <script defer src="https://unpkg.com/moment" /></script>
     <script defer src="script.js"></script>
 </body>
 </html>
