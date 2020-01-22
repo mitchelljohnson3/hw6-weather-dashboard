@@ -1,0 +1,65 @@
+/* global specs */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* row definition */
+.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+/* container definition */
+.container {
+  height: 100%;
+}
+/* column width definitions */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* column design format */
+[class*="col-"] {
+   float: left;
+   height: 100%;
+   margin: auto;
+   border: 1px solid red;
+ }
+/* horizontally centers a column */
+.center-col {
+ float: none;
+}
+/* full height content - must be applied to rows */
+.full-height{
+  height: 100%;
+}
+/* makes the elements position fixed on the page */
+.sticky{
+  position: fixed;
+}
+/* row height stretches to fit content */
+.fit-content{
+  height: fit-content;
+}
+/* display block */
+.block{
+  display: block;
+}
+.half-height{
+  height: 50%;
+}

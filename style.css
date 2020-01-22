@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+#header{
+    height: 70px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 40pt;
+}
+/* ======================================================= */
+#city-search{
+    padding: 15px;
+    background-color: rgb(206, 206, 206);
+}
+#input{
+    font-size: 20pt;
+}
+#city-storage{
+    margin-top: 15px;
+}
+/* ======================================================= */
+#city-info{
+    padding: 15px;
+}
+#info{
+    margin: 15px;
+    border: 2px solid grey;
+}
+/* ======================================================= */
+#city-forecast{
+
+}
+/* ======================================================= */
