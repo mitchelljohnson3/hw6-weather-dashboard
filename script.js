@@ -75,7 +75,9 @@ function displayCurrentForecast(json) {
     windSpeed.textContent = "Wind Speed: " + json.wind.speed + " MPH";
 }
 function display5DayForecast(json) {
+    let forecast = json.list;
     for(let i = 0; i < 40; i += 8) {
+        let index = i + 4;
         let newCard = document.createElement("div");
         newCard.setAttribute("id", "weatherCard");
 
@@ -83,7 +85,7 @@ function display5DayForecast(json) {
         let icon = document.createElement("img");
         let tempHeader = document.createElement("p");
         let humidityHeader = document.createElement("p");
-
-
+        
+        
     }
 }
