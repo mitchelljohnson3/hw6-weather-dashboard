@@ -24,7 +24,11 @@
     margin-top: 15px;
 }
 #searchButton{
-    width: 50px;
+    width: 50%;
+    height: 40px;
+}
+#clearList{
+    width: 50%;
     height: 40px;
 }
 /* ======================================================= */
@@ -41,12 +45,20 @@
 }
 /* ======================================================= */
 #city-forecast{
-
+    border: 2px solid black;
 }
 #weatherCard{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: aqua;
     border-radius: 1em;
+    display: table;
+    margin: 15px;
+    float: left;
+}
+#cityCard{
+    width: 100%;
+    border: 2px solid gray;
+    height: 75px;
 }
 /* ======================================================= */

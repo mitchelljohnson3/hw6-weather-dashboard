@@ -22,14 +22,17 @@
 
                 <div class="row block">
                     <div class="col-12">
+                        <h1>Search for a city...</h1>
                         <input name="city" type="text" id="input">
                         <label for="city">
                             <button id="searchButton">Search</button>
+                            <button id="clearList" style="float: right;">Clear List</button>
                         </label>
                     </div>
                 </div>
 
                 <div class="row block fit-content">
+                    <h1>History:</h1>
                     <div class="col-12" id="city-storage">
 
                     </div>
@@ -44,6 +47,7 @@
                         
                         <div class="row full-height">
                             <div class="col-12 center-col">
+                                <img style="float: left;" id="icon">
                                 <h1 id="cityName"></h1>
                                 <h2 id="date"></h2>
                                 <p id="temp"></p>
@@ -57,8 +61,8 @@
                 </div>
 
                 <div class="row block half-height" id="city-forecast">
-                    <div class="col-12">
-                        5 Day forecast
+                    <div class="col-12 fit-content" id="forecast">
+                        
                     </div>
                 </div>
 
